@@ -1,0 +1,21 @@
+# Dependency directories
+node_modules/
+client/node_modules/
+
+# Environment variables
+.env
+
+# Build output
+dist/
+client/build/
+client/dist/
+
+# Local development
+.DS_Store
+.idea/
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
