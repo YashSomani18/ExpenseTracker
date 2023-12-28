@@ -1,0 +1,94 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.content{
+  height: 100vh;
+}
+
+
+.register-page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+}
+
+/* 
+Transaction page
+*/
+.filters{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 3rem;
+  box-shadow: 0 0 3px gray;
+}
+
+
+/*  antd icons*/
+
+.switch-icons{
+  border: 1px solid rgba(0, 0, 0, 0.677);
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.anticon svg{
+  font-size: 20px;
+  cursor: pointer; 
+
+}
+
+.active-icon{
+  color: black;
+}
+
+.inactive-icon{
+  color:gray; 
+}
+
+
+.ant-form {
+  max-width: 400px; /* Adjust as needed */
+  margin: auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+
+/* CSS */
+.filters {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.frequency-filter, .type-filter {
+  margin-right: 20px; /* Adjust spacing */
+}
+
+
+/* CSS */
+.filters {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.frequency-filter, .type-filter {
+  margin-right: 20px; /* Adjust spacing */
+}
+
+/* CSS */
+.spinner-border {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
